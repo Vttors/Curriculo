@@ -5,107 +5,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitor Santos CV</title>
-    <link rel="stylesheet" href="./style.css">
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="resume-contents">
         <section class="left-section">
-            <section class="left-section-contents">
+            <div class="left-section-content">
                 <div class="profile">
-                    <img src="https://github.com/vttors.png" alt="Profile Picture" class="profile-image">
+                    <img class="profile-image" src="https://github.com/vttors.png" alt="Profile image">
                     <p class="name">Vitor Santos</p>
-                    <p class="profession">Estágiario</p>
+                    <p class="profession">Desenvolvedor de Produto</p>
                 </div>
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
                     <ul>
-                        <li>
-                            <a target="_blank" href="https://vttors.github.io/Sociais/">https://vttors.github.io/Sociais/</a>
+                        <li><i class="fa fa-phone"></i>+5531 992260438
                         </li>
-                        <li>
-                            <i class="fa fa-phone">+55 17 9999-7854<!--+55 31 99226-0438--></i>
+                        <li><i class="fa fa-envelope"></i>vitorvsantos21@gmail.com
                         </li>
-                        <li>
-                            <i class="fa fa-envelope">email@gmail.com<!--vitorvsantos21@gmail.com--></i>
+                        <li><i class="fa fa-globe"></i><a href="https://vttors.github.io/Sociais" target="_blank">Redes Sociais</a>
                         </li>
-                        <li>
-                            <i class="fa fa-git">vttors</i>
+                        <li><i class="fa fa-github"></i>vttors
                         </li>
                     </ul>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
                     <ul>
-                        <li><p>C, Arduino, Sistemas Ebarcados</p></li>
+                        <li><p>C, Arduino, Sistemas Embarcados</p></li>
                         <li><p>C++</p></li>
-                        <li><p>HTML5 & CSS3</p></li>
-                        <li><p>JavaScripit</p></li>
-                        <li><p>Git & GitHub</p></li>
                         <li><p>Java</p></li>
+                        <li><p>HTML5 & CSS3</p></li>
+                        <li><p>JavaScript</p></li>
+                        <li><p>SQL</p></li>
+                        <li><p>Git & GitHub</p></li>
+                        <li><p>Linux</p></li>
                     </ul>
                 </div>
-            </section>
+            </div>
         </section>
+
         <section class="right-section">
             <div class="right-section-contents">
+                <!-- sobre mim -->
                 <section class="about gap">
-                    <div class="right-title">Sobre Mim</div> 
+                    <div class="right-title">Sobre Mim</div>
                     <p class="about-me-contents">
-                        Olá, sou o Vitor. <br>
-                        <br>Um pouco sobre mim
-                        <br>Mais sobre mim
+                        Olá Sou o Vitor.<br>
+                        <br> Um pouco mais sobre o que faço
+                        <br> Quais são minhas competencias
                     </p>
                 </section>
+                <!-- fim sobre mim -->
+
+                <!-- experiencia -->
+                <section class="experience gap">
+                    <div class="right-title">Experiencia</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">VBC Sistemas</p>
+                            <p class="exp-time-period">2021-Presente</p><br>
+                            <p class="exp-time-period">Empresa focada na fabricação de inclinômetros para caminhões basculantes.</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Desenvolvedor de Produto</p>
+                            <p class="exp-desc">
+                                Programação em C voltada para sistemas embarcados. <br><br>
+                                Criação de um software em C++ para a automação dos testes dos produtos. <br><br>
+                                Criação de uma giga de testes utilizando arduíno. <br><br>
+                                Soldagem de componentes eletrônicos. <br><br>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim experiencia -->
+                <!-- cursos -->
+                <section class="awards gap">
+                    <div class="right-title">Cursos</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Alura - Java</p>
+                            <p class="awards-time-period">Julho de 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Curso de Java Alura</p>
+                            <p class="awards-desc">
+                                Cursos de Java pela Alura. <br> Repositório: <a href="https://github.com/vttors/Cursos_Alura/tree/main/Java" target="_blank">Curso Java</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Ebac</p>
+                            <p class="awards-time-period">Julho de 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Curriculo</p>
+                            <p class="awards-desc">
+                                Imersão feita pela Ebac para a criação de um curriculo online. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">RocketSeat</p>
+                            <p class="awards-time-period">Junho de 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Imersão RocketSeat</p>
+                            <p class="awards-desc">
+                                Imersão feita pela RocketSeat para criar um site parecido com o linktr.ee. <br>
+                                Projeto: <a href="https://vttors.github.io/Sociais" target="_blank">https://vittors.github.io/sociais.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Marvin</p>
+                            <p class="awards-time-period">Junho de 2019</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Curso Básico de Python e JavaScript</p>
+                            <p class="awards-desc">
+                                Curso básico para o aprendizado de JavaScript e Python.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim cursos -->
             </div>
-            <section class="experience gap">
-                <div class="right-title">Experiência</div>
-                <div class="experience-contents">
-                    <!--Primeira Empresa-->
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-time-period">2021-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Estágiario em Desenvolvimento de Produto</p>
-                        <p class="exp-desc">
-                            Descrição das minhas atividades
-                        </p>
-                    </div>
-                    <!--Segunda Empresa-->
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 02</p>
-                        <p class="exp-time-period">2020-2021</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Estágiario em Desenvolvimento de Produto</p>
-                        <p class="exp-desc">
-                            Descrição das minhas atividades
-                        </p>
-                    </div>
-                </div>
-            
-            </section>
-            <section class="education gap">
-                <div class="right-title"> Formação Acadêmica</div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">PUC</p>
-                        <p class="education-time-period">2018-2023</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subject">Engenharia de Controle e Automação</p>
-                        <p class="education-desc">Graduação em Engenharia de Controle e Autommação</p>
-                    </div>
-                    <div class="education-left">
-                        <p class="education-school-name">Escola do Sebrae</p>
-                        <p class="education-time-period">2014-2016</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subject">Ensino Médio + Técnico</p>
-                        <p class="education-desc">Ensino técnico em administração </p>
-                    </div>
-                </div>
-            </section>
         </section>
     </main>
 </body>
